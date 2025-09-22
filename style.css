@@ -1,0 +1,92 @@
+body {
+
+	background-color: #FFD6D6;
+	font-family: "Garamond", Serif;
+	font-size: 17px;
+}
+
+p {
+	word-spacing: 2px;
+	line-height: 1.6;
+	text-indent: 20px;
+}
+
+p::first-letter {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-size: 19px;
+}
+
+a:link {
+  color: darkred;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple; 
+}
+
+a:focus {
+  color: orangered;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+}
+
+h1 {
+	font-family:"Lucida Handwriting", cursive;
+	font-size: 55px;
+
+	text-align: center;
+	color: darkred;
+
+}
+
+img {
+	display: block;
+	margin: auto;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+h2, h3 {
+	font-family: "Garamond", Serif;
+	text-decoration: underline;
+	color:darkred;
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none; 
+} 
+
+h4 { 
+	font-family: "Garamond", Serif;
+	color:orangered;
+ }
+
+#lastlist li::marker {
+    content: "🎤 "; 
+}
+
+ .sqlists {
+ 	list-style-type: square; 
+ }
+
+ #education {
+ 	background: url('guitar.png');
+ }
+
